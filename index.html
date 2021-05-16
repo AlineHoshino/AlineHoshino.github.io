@@ -5,51 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Aline Eiko Hoshino</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Itim&display=swap" rel="stylesheet">
-    <style>
-        body{background-color:rgb(224, 202, 245);
-        }
-        #foto{border-radius:100%;
-        }
-        h1{
-            font-family: 'Itim', cursive;
-            color: rgb(166, 92, 240);
-        }
-        p{font-family: 'Indie Flower', cursive;
-        font-size: 20px;
-        color:rgb(63, 22, 63)
-        }
-        li{
-            font-family: 'Indie Flower', cursive;
-            font-size: 20px;
-        }
-        .lista{
-            font-style: italic;
-        }
-    </style>
+    
 </head>
 <body>
     <p>
+        <!--Por enquanto deixarei o link interno sem colocar porque
+            não tem barra de rolagem para descer o conteúdo"
+        <div class="linkinterno">
         <ul>
         <li><a href="#principal">Principais Habilidades</a></li>
         <li><a href="#outras">Outras Habilidades</a></li>
+        </div>
+        -->
         <h1>Aline Eiko Hoshino</h1>
         <img src="eu.png" width="300px" alt="foto minha quando viajei" id="foto">
+        <img src="caderno.png" width=1300px; alt="caderno" id="caderno">
+        <img src="tryb.png"  width="100px" alt="mascote da trybe abelha" id="abelha">
+        <img src="bebê-no-vagão.gif" width="400px" alt="gato descendo montanha russa" id="bebê">
+
     </ul>
     </p>
-       <p>
-       Meu nome é Aline, sou estudante de desenvolvimento web na <strong>Trybe</strong>. Possuo formação em História <br>
-       pela <em>UNESP/ASSIS</em>. Gosto muito de ler <strong>livros</strong> e de adquirir novos <strong>conhecimentos</strong>.<br>
-       Estou adorando codar todos os dias e fazer novas amizades.
+       <p id="descrição">
+       Meu nome é Aline, sou estudante de desenvolvi<br>mento web na <strong>Trybe</strong>. <br>
+       Possuo formação em História
+       pela <em>UNESP</em>.<br> Gosto muito de ler <strong>livros</strong> e de adquirir novos <strong><br>conhecimentos</strong>.<br>
+       Estou adorando codar todos os dias e fazer<br> novas amizades.
     </p>
-    <p>
-        Minhas redes sociais:<br><br>
+    <div class="redes">
+        <p>
+        Minhas redes sociais:<br>
         <a href="https://www.linkedin.com/in/alinehoshino/" target="_blank">Linkedin</a><br>
         <a href="https://github.com/AlineHoshino" target ="_blank">GitHub</a>
+    </div>
     </p>
+    <div class="habilidade">
     <p id="principal" class="lista">
         Habilidades que mais me orgulho:
         <ol>
@@ -57,21 +51,34 @@
             <li>Dedicação</li>
             <li>Empatia</li>
         </ol>
+    </div>
     </p>
-    <p id="outras" class="lista">
+    <div class="outras habilidades">
+    <p id="outras">
          Outras habilidades:
          <ul>
              <li>Git</li>
              <li>Criatividade</li>
              <li>Colaboração</li>
+             <li>Desenho</li>
          </ul>
         </p>
-         <p>Site que mais gosto:
-             <a href="https://www.skoob.com.br/usuario/1184632" target= "_blank">Perfil do Skoob</a> 
-             Skoob é um site que mostar todos os livros que o usuário já leu.
-         </p>
+    </div>
+    <div class="site">
+         <p>Site que mais gosto:</p>
+             <p>Skoob é um site que mostar todos os livros que o usuário já leu.</p>
+             <p>Abaixo tem o meu perfil:</p>
+             <a href="https://www.skoob.com.br/usuario/1184632" target= "_blank">Perfil do Skoob</a>
+    </div>
          <p>
          <a href="#foto">Foto</a>
         </p>
+        <div >
+        <p id="frase">A vida é como uma montanha russa, terão muitos sobe e desce.<br> Muitas vezes você vai desejar
+            que tudo acabe logo, ou vai querer<br> parar. Siga firme até o fim. No final, você terá adorado o passeio.
+
+
+        </p>
+    </div>
 </body>
 </html>
