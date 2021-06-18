@@ -1,102 +1,48 @@
 
 body{
-  background-image: url(wood.jpg);
-    }
-
-h1{
-  font-family: 'Itim', cursive;
+  background-color: rgb(175, 164, 184);
+}
+h1 {
+  font-family: "Itim", cursive;
   color: rgb(166, 92, 240);
-  z-index: 6;
-  position: absolute;
-  left:220px;
-  top:120px;
-   }
-p{
-  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
+
+p {
+  font-family: "Indie Flower", cursive;
   font-size: 20px;
-  color:rgb(63, 22, 63)
-   }
-li{
-  font-family: 'Indie Flower', cursive;
+  color: rgb(63, 22, 63);
+}
+li {
+  font-family: "Indie Flower", cursive;
   font-size: 20px;
-  }
-li:hover{
+}
+li:hover {
   font-weight: bold;
-  color:rgb(130, 230, 130);
+  color: rgb(130, 230, 130);
 }
-.lista{
+.lista {
   font-style: italic;
-       }
-#caderno{
-  z-index:1;
-  position: absolute;
 }
+
+/* no mobile não dá certo essa opção, mas deixarei aqui para fins de estudo
 #foto{
-  z-index:2;
-  position: absolute;
-  left: 60px;
-  top:240px;
-  border-radius:100%;
-  width:200px;
+  float:left;
+  padding:5px;
+  height:290px;
+  background-color: rgb(209, 177, 231);
 }
+.image-container{
+  height:300px;
+  position: relative;
+  
+}
+
+
 #descrição{
-  z-index: 3;
-  position: absolute;
-  left: 259px;
-  top:230px;
-  font-size:18px;
-}
-.habilidade{
-  z-index:4;
-  position: absolute;
-  top:510px;
-  left:270px
-}
-.outras{
-  z-index:5;
-  position:absolute;
-  top:700px;
-  left:270px;
-}
-.linkinterno{
-  z-index:7;
-  position: absolute;
-  top:230px;
-  left:800px;
-}
-.site{
-  z-index:8;
-  position:absolute;
-  left:700px;
-  top:80px;
-}
-.redes{
-  z-index:9;
-  position:absolute;
-  left:900px;
-  top:300px;
-}
-
-#abelha{
-  z-index:10;
-  position: absolute;
-  top:580px;
-  left:100px;
+position:absolute;
+top:36%;
+left:360px;
 
 }
-
-#bebê{
-  z-index: 11;
-  position:absolute;
-  top: 440px;
-  left:780px;
-}
-
-#frase{
-  z-index: 12;
-  position:absolute;
-  top: 690px;
-  left:750px;
-  font-size: 18px;
-
-}
+*/
