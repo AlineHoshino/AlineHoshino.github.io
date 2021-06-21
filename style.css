@@ -25,24 +25,3 @@ li:hover {
   font-style: italic;
 }
 
-/* no mobile não dá certo essa opção, mas deixarei aqui para fins de estudo
-#foto{
-  float:left;
-  padding:5px;
-  height:290px;
-  background-color: rgb(209, 177, 231);
-}
-.image-container{
-  height:300px;
-  position: relative;
-  
-}
-
-
-#descrição{
-position:absolute;
-top:36%;
-left:360px;
-
-}
-*/
