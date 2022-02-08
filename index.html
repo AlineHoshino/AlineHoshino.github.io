@@ -1,85 +1,127 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio Aline Eiko Hoshino</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Itim&display=swap"
-      rel="stylesheet"
-    />
-  </head> 
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Desenvolvedora Web">
+  <title>Desenvolvedora Web</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="header-menu">
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="introducao">
+    <img src="img/eu.png" alt="fotopessoajaponesa">
     <div>
-      <header>
-        <a href="https://alinehoshino.github.io/Projetos/" target="_blank" title="Página com os projetos">Projetos</a>
-      </header>
-      <h1>Aline Eiko Hoshino</h1>
-      <div class="image-container">
-        <img
-          src="eu.png"
-          width="300px"
-          alt="foto minha quando viajei"
-          id="foto"/>
-        <p id="descrição">
-          Meu nome é Aline, sou estudante de desenvolvimento web na
-          <strong>Trybe</strong>. 
-          Possuo formação em História pela <em>UNESP</em>.
-          Gosto muito de ler <strong>livros</strong> e de adquirir novos
-          <strong>Conhecimentos</strong>.
-          Estou adorando codar todos os dias e fazer novas amizades.
+      <h1>Aline Eiko Hoshino </h1>
+      <p>Desenvolvedora Web 💻</p>
+    </div>
+  </main>
+
+  <section class="projetos" id="projetos"aria-label="Projetos">
+    <h2 class="subtitulo">Projetos</h2>
+    <div>
+      <p class="experiencia-texto">Desenvolvi projetos como o Todo-List utilizando<strong> HTML</strong>,<strong> 
+        CSS</strong> e <strong>JavaScript</strong>.
+        E alguns projetos utilizando <strong>React</strong>.</p>
+
+        <div class="empresa">
+          <h3 class="empresa-titulo"><a href="https://alinehoshino.github.io/Projetos/todolist/">Todo-List</a></h3>
+          <span class="empresa-titulo">Habilidades</span>
+          <p class="empresa-texto">Podemos adicionar tarefas, <del>riscá-las</del> ao completar, podemos selecionar uma tarefa, podemos reordenar as tarefas por ordem de prioridade e também excluir as tarefas.</p>
+          <ul class="empresa-habilidade">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+          </ul>
+        </div>
+
+        <div class="empresa">
+          <h3 class="empresa-titulo"><a href="https://alinehoshino.github.io/Projetos/movie-card/">🎥Movie Cards Library</a></h3>
+          <span class="empresa-titulo">Habilidades</span>
+          <p class="empresa-texto"> Um projeto com filmes e suas classificações feito em React.</p>
+          <ul class="empresa-habilidade">
+            <li>React</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+
+        <div class="empresa">
+          <h3 class="empresa-titulo"><a href="https://alinehoshino.github.io/receitinhas/">🧑‍🍳App de receitas</a></h3>
+          <span class="empresa-titulo">Habilidades</span>
+          <p class="empresa-texto">Projeto feito em react, nesse projeto feito em grupo criamos um site de receitas, com a opção de aprender a fazer comidas e bebidas.
+            <ul class="empresa-habilidade">
+            <li>React</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+    
+    </div>
+  </section>
+
+  <section class="formacao" id="formacao" aria-label="Formaçao">
+    <div class="formacao-container">
+      <h2 class="subtitulo">Formacao</h2>
+     
+      <div>
+        <p class="formacao-texto">
+          Atualmente estudando desenvolvimento Web na <strong>Trybe,</strong>são mais de <strong>1500 horas</strong> de formação que aborda fundamentos de desenvolvimento
+          web, desenvolvimento, Front-end, Back-end, ciência da computação,
+          metodologias ágeis e habilidades comportamentais.
         </p>
+        <ul class="faculdade-lista">
+          <li class="faculdade">
+            <span class="faculdade-tipo">Técnico</span>
+            <h3 class="faculdade-curso">Desenvolvimento Web</h3>
+            <span class="faculdade-instituicao">Trybe</span>
+          </li>
+          <li class="faculdade">
+            <span class="faculdade-tipo">Licenciatura</span>
+            <h3 class="faculdade-curso">História</h3>
+            <span class="faculdade-instituicao">UNESP</span>
+          </li>
+        </ul>
+        
+        <div class="formacao-extra">
+          <div class="cursos">
+            <h3>Cursos intensivos</h3>
+            <ul>
+              <li>Negociação e influência <span>15 horas</span></li>
+            </ul>
+          </div>
+
+          <div class="cursos">
+            <h3>Idiomas</h3>
+            <ul>
+              <li>Inglês <span>Avançado</span></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-    
-    <p>
-        <ul>
-        <li><a href="#principal">Principais Habilidades</a></li>
-        <li><a href="#outras">Outras Habilidades</a></li>
-        </ul>
+  </section>
 
-        <p>Minhas redes sociais:<br>
-        <a href="https://www.linkedin.com/in/alinehoshino/" target="_blank">Linkedin</a><br>
-        <a href="https://github.com/AlineHoshino" target ="_blank">GitHub</a>
-    
-    </p>
-    <p id="principal" class="lista">
-        Habilidades que mais me orgulho:
-        <ol>
-            <li>Esforço</li>
-            <li>Dedicação</li>
-            <li>Empatia</li>
-        </ol>
-    </p>
-    <img src="tryb.png"  width="100px" alt="mascote da trybe abelha" id="abelha">
-    <p id="outras">
-         Outras habilidades:
-         <ul>
-             <li>Git</li>
-             <li>Criatividade</li>
-             <li>Colaboração</li>
-             <li>Desenho</li>
-         </ul>
-        </p>
-    
-         <p>Site que mais gosto:</p>
-         <p>Abaixo tem o meu perfil:</p>    
-         <a href="https://www.skoob.com.br/usuario/1184632" target= "_blank">Perfil do Skoob</a>
-         <p>Skoob é um site que mostar todos os livros que o usuário já leu.</p>
-            
-             
-   
-             <img src="bebê-no-vagão.gif" width="400px" alt="gato descendo montanha russa" id="bebê">
-        <p id="frase">A vida é como uma montanha russa, terão muitos sobe e desce.<br> Muitas vezes você vai desejar
-            que tudo acabe logo, ou vai querer<br> parar. Siga firme até o fim. No final, você terá adorado o passeio.
-        </p>
-  </body>
+  <footer class="footer" id="contato">
+  <div class="footer-container">
+    <p class="footer-texto">Estou disponível para trabalho.Entre em contato comigo.</p>
+    <ul class="footer-contato">
+      <li>hoshinoaline@yahoo.com.br</li>
+      <li><a href="https://github.com/AlineHoshino">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/alinehoshino/">Linkedin</a></li>
+    </ul>
+  </footer>
+  </div>
+</body>
 </html>
+
+
+
